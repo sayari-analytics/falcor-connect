@@ -1,8 +1,11 @@
 {
-  "name": "falcor-connect",
+  "name": "@sayari/falcor-connect",
   "version": "0.1.0",
   "description": "react-falcor bindings",
   "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/sayari-analytics/falcor-connect"
+  },
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "dev": "webpack-dev-server --mode development --config ./examples/webpack.js --progress",
